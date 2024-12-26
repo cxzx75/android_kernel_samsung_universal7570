@@ -11,7 +11,7 @@ config SECURITY_SELINUX
 config SECURITY_SELINUX_PERMISSIVE
 	bool "set NSA SELinux to permissive at boot"
 	depends on SECURITY_SELINUX
-	default n
+	default y
 
 config SECURITY_SELINUX_BOOTPARAM
 	bool "NSA SELinux boot parameter"
